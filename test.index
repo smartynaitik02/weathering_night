@@ -1,0 +1,27 @@
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Page with Nested Iframes</title>
+</head>
+<body>
+
+<iframe src="outer_iframe.html">
+    <!-- Content of the outer iframe -->
+    
+    <iframe src="nested_iframe1.html">
+        <!-- Content of the first nested iframe -->
+    </iframe>
+
+    <iframe src="nested_iframe2.html">
+        <!-- Content of the second nested iframe -->
+    </iframe>
+
+</iframe>
+
+</body>
+</html>
